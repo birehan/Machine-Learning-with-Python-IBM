@@ -1,0 +1,12 @@
+# Linear Regression
+Linear regression is a fundamental technique used to predict continuous values based on the relationship between variables. It is particularly useful in scenarios where we want to estimate a dependent variable using one or more independent variables. In simple linear regression, we have a single independent variable and a dependent variable. However, in multiple linear regression, we can consider multiple independent variables.
+
+The key idea behind linear regression is to find the best-fitting line that represents the relationship between the variables. By plotting the data points on a scatter plot, we can visualize how changes in the independent variable affect the dependent variable. The objective is to minimize the error between the predicted values and the actual values.
+
+To achieve this, we need to estimate the coefficients of the linear equation, namely theta 0 (intercept) and theta 1 (slope). These coefficients determine the line that best fits the data. The estimation of these coefficients involves calculating the mean of the independent and dependent variables from the dataset.
+
+Once we have determined the coefficients, we can use the linear equation to make predictions. By plugging in the values of the independent variable into the equation, we can estimate the corresponding dependent variable. For example, given an engine size of 2.4, we can predict the CO2 emission to be 198.492 based on our linear regression model.
+
+Linear regression offers several advantages. It is a fast and efficient method that does not require complex parameter tuning. Moreover, it is easy to interpret and provides insights into the relationship between variables. However, it is important to note that linear regression assumes a linear relationship between the variables and may not be suitable for complex, nonlinear relationships.
+
+In summary, linear regression is a valuable tool for predicting continuous values based on the relationship between variables. By fitting a line to the data, we can estimate the coefficients and make predictions. Its simplicity and interpretability make it a popular choice for various applications, although it is important to consider the assumptions and limitations of the linear relationship when applying this technique.
